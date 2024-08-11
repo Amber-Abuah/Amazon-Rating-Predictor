@@ -1,5 +1,5 @@
 # Amazon Rating Predictor
-An application that predicts Amazon ratings from text reviews using a Multinomial Naive Bayes classifier. Based on an Amazon product page URL provided, reviews are scraped from the page and then classified into {1, 2, 3, 4, 5} star ratings.
+An application that predicts Amazon ratings from live-scraped text reviews using a Multinomial Naive Bayes classifier. Each review is preprocessed, converted into a vector representation using TF/IDF, then its rating is predicted from the classes {1, 2, 3, 4, 5}.
 
 # Handling Unbalanced Data
 ![](https://github.com/Amber-Abuah/Amazon-Rating-Predictor/blob/main/RatingDistribution.jpg)  
